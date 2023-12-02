@@ -1,0 +1,90 @@
+body.board.app {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .board-app_main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(217, 226, 235);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .board-app_inner {
+    /* Any additional styling for the inner container */
+  }
+  
+  .header {
+    text-align: left;
+  }
+  
+  .header-title {
+    margin: 0;
+    color: #fff;
+    background-color: #3498db;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-left: 0%;
+
+  }
+
+  .add-task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-task {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-task input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .blue-button {
+    background-color: #3498db; /* Blue button color */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .text-file {
+    margin: 0;
+  }
+  
+  .main-blocks {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-blocks {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-block {
+    width: 23%; /* Adjust the width based on your preference */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sub-blocks {
+    margin-top: 10px;
+  }
+  
+  .white-block {
+    background-color: #fff;
+    margin-bottom: 10px;
+    height: 50px;
+  }
+  

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Todo List</title>
+</head>
+<body class="board app">
+  <div id="app" class="board-app_main">
+    <div class="board-app_inner">
+      <div class="header">
+        <h1 class="header-title">Список задач</h1>
+      </div>
+      <div class="add-task-container">
+        <div class="add-task">
+            <p> Новая задача</p>
+          <input type="text" id="taskInput" placeholder="Название задачи..">
+          <button onclick="addTask()" class="blue-button">+ Добавить</button>
+        </div>
+      </div>
+      <div class="main-blocks">
+        <div class="main-block">
+          <div class="blue-button">Название блока</div>
+          <div class="sub-blocks">
+            <div class="white-block"></div>
+            <div class="white-block"></div>
+            <div class="white-block"></div>
+          </div>
+        </div>
+        <div class="main-blocks">
+            <div class="main-block">
+              <button class="blue-button">Название блока</button>
+              <div class="sub-blocks">
+                <div class="white-block"></div>
+                <div class="white-block"></div>
+                <div class="white-block"></div>
+              </div>
+            </div><div class="main-blocks">
+                <div class="main-block">
+                  <button class="blue-button">Название блока</button>
+                  <div class="sub-blocks">
+                    <div class="white-block"></div>
+                    <div class="white-block"></div>
+                    <div class="white-block"></div>
+                  </div>
+                </div><div class="main-blocks">
+                    <div class="main-block">
+                      <button class="blue-button">Название блока</button>
+                      <div class="sub-blocks">
+                        <div class="white-block"></div>
+                        <div class="white-block"></div>
+                        <div class="white-block"></div>
+                      </div>
+                    </div>
+        <!-- Repeat the above structure for the other three main blocks -->
+      </div>
+    </div>
+  </div>
+  <script type="module" src="src/render.js"></script>
+  <script type="module" src="src/components/task.js"></script>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
